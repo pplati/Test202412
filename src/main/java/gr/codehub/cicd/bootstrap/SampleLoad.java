@@ -11,7 +11,7 @@ public class SampleLoad {
     }
 
     public void loadSampleData() {
-        clearDatabase();
+        clearSampleDatabase();
         databaseService.saveEmployee(new Employee(1, "Alice", 55000));
         databaseService.saveEmployee(new Employee(2, "Bob", 45000));
         databaseService.saveEmployee(new Employee(3, "Charlie", 25000));
@@ -24,7 +24,7 @@ public class SampleLoad {
         databaseService.saveEmployee(new Employee(10, "Jack", 28000));
     }
 
-    private void clearDatabase() {
+    private void clearSampleDatabase() {
         databaseService.clearDatabase();
     }
 }
