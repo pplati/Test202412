@@ -14,4 +14,5 @@ public interface DatabaseService {
     List<Employee> findEmployeeByName(String name);
 
     void clearDatabase();
+
 }

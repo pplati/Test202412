@@ -27,4 +27,5 @@ public class EmployeeTest {
     void shouldReturnCorrectSalary() {
         assertEquals(60000, sampleEmployee.getSalary(), "Employee salary should match");
     }
+
 }
